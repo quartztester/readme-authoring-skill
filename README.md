@@ -40,6 +40,8 @@ Then ask your agent to "write a README for this repo" or "rewrite this README wi
 | `demo/openrazer-original-README.md` | The upstream OpenRazer README, for side-by-side comparison |
 | `demo/discrub-README.md` | Sample: pratherbytecraft/discrub's README rewritten with the skill, 628 to 163 lines, all 31 screenshots in a captioned gallery |
 | `demo/discrub-original-README.md` | The upstream Discrub README, for side-by-side comparison |
+| `demo/remark42-README.md` | Sample: umputun/remark42's README rebuilt with the skill, 49 to 110 lines; the sparse direction: screenshot uncollapsed to hero, install and license sections added, 22-bullet feature wall compressed to 8 |
+| `demo/remark42-original-README.md` | The upstream Remark42 README, for side-by-side comparison |
 | `research/analysis.json` | Structural analysis of all 21 repos: banners, badges, screenshots, install sizes, heading outlines, aggregate stats |
 | `research/meta.json` | Repo metadata for the sample (stars, language, license) |
 | `research/original-prompt.md` | The raw prompt that started this project, kept verbatim |
@@ -47,4 +49,4 @@ Then ask your agent to "write a README for this repo" or "rewrite this README wi
 
 ## License
 
-[GPL-3.0](LICENSE). The fetched READMEs under `research/readmes/` remain with their respective projects under their original licenses. The rewrites under `demo/` are demonstration derivatives of the respective upstream READMEs, kept with attribution under their upstream terms (OpenRazer: GPL-2.0-or-later).
+[GPL-3.0](LICENSE). The fetched READMEs under `research/readmes/` remain with their respective projects under their original licenses. The rewrites under `demo/` are demonstration derivatives of the respective upstream READMEs, kept with attribution under their upstream terms (OpenRazer: GPL-2.0-or-later; Remark42: MIT).
