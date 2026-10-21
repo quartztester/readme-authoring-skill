@@ -36,6 +36,10 @@ Then ask your agent to "write a README for this repo" or "rewrite this README wi
 | `SKILL.md` | The skill |
 | `templates/README-template.md` | Fill-in README skeleton |
 | `demo/sveltia-cms-auth-README.md` | Sample: the sveltia/sveltia-cms-auth README rewritten with the skill, 135 to 68 lines, every fact kept or linked |
+| `demo/openrazer-README.md` | Sample: openrazer/openrazer's README rewritten with the skill, 358 to 121 lines, every project asset embedded and link-verified (logo, banner, 13 distro icons, frontend icons) |
+| `demo/openrazer-original-README.md` | The upstream OpenRazer README, for side-by-side comparison |
+| `demo/discrub-README.md` | Sample: pratherbytecraft/discrub's README rewritten with the skill, 628 to 163 lines, all 31 screenshots in a captioned gallery |
+| `demo/discrub-original-README.md` | The upstream Discrub README, for side-by-side comparison |
 | `research/analysis.json` | Structural analysis of all 21 repos: banners, badges, screenshots, install sizes, heading outlines, aggregate stats |
 | `research/meta.json` | Repo metadata for the sample (stars, language, license) |
 | `research/original-prompt.md` | The raw prompt that started this project, kept verbatim |
@@ -43,4 +47,4 @@ Then ask your agent to "write a README for this repo" or "rewrite this README wi
 
 ## License
 
-[GPL-3.0](LICENSE). The fetched READMEs under `research/readmes/` remain with their respective projects under their original licenses.
+[GPL-3.0](LICENSE). The fetched READMEs under `research/readmes/` remain with their respective projects under their original licenses. The rewrites under `demo/` are demonstration derivatives of the respective upstream READMEs, kept with attribution under their upstream terms (OpenRazer: GPL-2.0-or-later).
