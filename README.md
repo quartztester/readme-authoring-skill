@@ -42,6 +42,8 @@ Then ask your agent to "write a README for this repo" or "rewrite this README wi
 | `demo/discrub-original-README.md` | The upstream Discrub README, for side-by-side comparison |
 | `demo/remark42-README.md` | Sample: umputun/remark42's README rebuilt with the skill, 49 to 110 lines; the sparse direction: screenshot uncollapsed to hero, install and license sections added, 22-bullet feature wall compressed to 8 |
 | `demo/remark42-original-README.md` | The upstream Remark42 README, for side-by-side comparison |
+| `demo/wytui-README.md` | Sample: willuhmjs/wytui's README polished with the skill, 131 to 107 lines; logo and badge row added to an already-solid README, env table trimmed, TODO comments where the repo has no screenshots |
+| `demo/wytui-original-README.md` | The upstream wytui README, for side-by-side comparison |
 | `research/analysis.json` | Structural analysis of all 21 repos: banners, badges, screenshots, install sizes, heading outlines, aggregate stats |
 | `research/meta.json` | Repo metadata for the sample (stars, language, license) |
 | `research/original-prompt.md` | The raw prompt that started this project, kept verbatim |
