@@ -41,4 +41,4 @@ Then ask your agent to "write a README for this repo" or "rewrite this README wi
 
 ## License
 
-MIT
+[GPL-3.0](LICENSE). The fetched READMEs under `research/readmes/` remain with their respective projects under their original licenses.

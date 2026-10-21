@@ -3,7 +3,7 @@ name: readme-authoring
 description: Write concise dual-audience READMEs for apps and repos.
 version: 0.1.0
 author: quartztester, Hermes Agent
-license: MIT
+license: GPL-3.0
 platforms: [linux, macos, windows]
 metadata:
   hermes:
