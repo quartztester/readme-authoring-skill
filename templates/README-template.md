@@ -71,6 +71,16 @@ Configuration, deployment and troubleshooting live in the [documentation](https:
 - [Issue tracker](https://github.com/OWNER/REPO/issues)
 - [Chat](https://example.com/chat)
 
+<!-- Optional, established projects only:
+## Contributors
+
+[![Contributors](https://contrib.rocks/image?repo=OWNER/REPO)](https://github.com/OWNER/REPO/graphs/contributors)
+
+## Sponsors
+
+[OpenCollective backers and sponsors images, or a GitHub Sponsors link]
+-->
+
 ## Contributing
 
 PRs welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) first.

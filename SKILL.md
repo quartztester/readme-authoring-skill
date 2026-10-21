@@ -23,6 +23,7 @@ Write or de-verbose a project README so non-technical and technical readers both
 - 14/21 have badges, median 3 per repo.
 - Install sections hold a median of ~20 words of copy-paste plus links. Depth (full configs, compilation, architecture) lives in linked docs, wikis, or websites.
 - Only 300+ line READMEs carry a table of contents.
+- Social proof is tiered: website links 17/21, chat 12/21, forums 10/21, sponsors or donations 8/21, translation widgets 8/21, contributor displays 4/21.
 
 ## When to use
 
@@ -98,6 +99,21 @@ The README is a landing page; depth lives behind links. When rewriting, nothing 
 - Reference only images that exist in the repo (`docs/`, `assets/`, `.github/`, `resources/`). Verify with `search_files` or the GitHub contents API. If a good image doesn't exist yet, drop in `<!-- TODO: add a screenshot at docs/screenshot-main.png -->`; never invent a path
 - Sanitize screenshots: no emails, usernames, real personal domains, tokens, or keys visible
 
+## Social proof
+
+Include only what's true for the repo, ranked by how common it is in the sample:
+
+- Website link (17/21): first quick link when a site exists
+- Chat channel (12/21): Matrix, Discord, IRC; under Community
+- Forum or discussions (10/21): Discourse, subreddit, GitHub Discussions
+- Contributing guide (9/21): one line plus a link to CONTRIBUTING.md
+- Sponsors and donations (8/21): OpenCollective, GitHub Sponsors, Patreon, Liberapay. Established projects only; a donate section on a two-week-old repo reads as presumptuous
+- Translation widget (8/21): Weblate or Crowdin badge when the app is translated
+- Social media (6/21): only accounts that are active
+- Acknowledgements (6/21): one line crediting what inspired the project
+- Contributors display (4/21): OpenCollective backers and sponsors avatar walls, a contrib.rocks image, or a link to /graphs/contributors
+- Skip stars, forks and issues badges (4/21, all large projects): the GitHub UI already shows them. "How to cite" is for academic tools only
+
 ## Star History footer
 
 `[![Star History Chart](https://api.star-history.com/svg?repos=OWNER/REPO&type=Date)](https://star-history.com/#OWNER/REPO&Date)`
@@ -132,5 +148,6 @@ Only 1 of the 21 exemplars had one, but it gives an instant popularity-over-time
 - [ ] Total under 200 lines (hard cap 250)
 - [ ] Every image path exists in the repo; every link resolves
 - [ ] Every cut fact has a linked home
+- [ ] Social proof elements (chat, sponsors, contributors, translations) are all true for this repo
 - [ ] Star History chart at the bottom (or deferred for zero-star repos)
 - [ ] No personal data in screenshots

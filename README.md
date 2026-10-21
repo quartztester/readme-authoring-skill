@@ -15,6 +15,7 @@ AI-generated READMEs drown readers in configuration tables, architecture notes, 
 - Depth rule: any section over ~150 words or config table over ~8 rows moves to docs and becomes a link, so nothing is deleted without a linked home
 - Writing rules that kill AI-isms ("This repository contains…", "blazing-fast", "seamless") and phrase features as benefits
 - Verification checklist: badges checked against real workflow filenames, image paths must exist, screenshots sanitized
+- Social-proof ladder with sample frequencies (website 17/21, chat 12/21, sponsors 8/21, contributors 4/21); include only what's true
 
 ## Install
 
@@ -37,6 +38,7 @@ Then ask your agent to "write a README for this repo" or "rewrite this README wi
 | `demo/sveltia-cms-auth-README.md` | Sample: the sveltia/sveltia-cms-auth README rewritten with the skill, 135 to 68 lines, every fact kept or linked |
 | `research/analysis.json` | Structural analysis of all 21 repos: banners, badges, screenshots, install sizes, heading outlines, aggregate stats |
 | `research/meta.json` | Repo metadata for the sample (stars, language, license) |
+| `research/original-prompt.md` | The raw prompt that started this project, kept verbatim |
 | `research/readmes/` | The 21 fetched READMEs the analysis is based on; content belongs to the respective projects |
 
 ## License
