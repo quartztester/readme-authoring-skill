@@ -46,6 +46,10 @@ Then ask your agent to "write a README for this repo" or "rewrite this README wi
 | `demo/remark42-original-README.md` | The upstream Remark42 README, for side-by-side comparison |
 | `demo/wytui-README.md` | Sample: willuhmjs/wytui's README polished with the skill, 131 to 107 lines; logo and badge row added to an already-solid README, env table trimmed, TODO comments where the repo has no screenshots |
 | `demo/wytui-original-README.md` | The upstream wytui README, for side-by-side comparison |
+| `demo/linknexus-README.md` | Sample: willuhmjs/linknexus's README expanded with the skill, 72 to 107 lines; the build-out direction: all 10 portfolio screenshots surfaced as hero plus captioned galleries, license badge and section and Star History added, logo marked TODO |
+| `demo/linknexus-original-README.md` | The upstream LinkNexus README, for side-by-side comparison |
+| `demo/relaypoint-README.md` | Sample: willuhmjs/relaypoint's README tightened with the skill, 205 to 98 lines; the og-image promoted to banner, the 16-row config table trimmed to 10 with .env.example as the linked home, contributor sections compressed, Star History deferred per the zero-star rule |
+| `demo/relaypoint-original-README.md` | The upstream RelayPoint README, for side-by-side comparison |
 | `research/analysis.json` | Structural analysis of all 21 repos: banners, badges, screenshots, install sizes, heading outlines, aggregate stats |
 | `research/meta.json` | Repo metadata for the sample (stars, language, license) |
 | `research/original-prompt.md` | The raw prompt that started this project, kept verbatim |
@@ -53,4 +57,4 @@ Then ask your agent to "write a README for this repo" or "rewrite this README wi
 
 ## License
 
-[GPL-3.0](LICENSE). The fetched READMEs under `research/readmes/` remain with their respective projects under their original licenses. The rewrites under `demo/` are demonstration derivatives of the respective upstream READMEs, kept with attribution under their upstream terms (OpenRazer: GPL-2.0-or-later; Remark42: MIT).
+[GPL-3.0](LICENSE). The fetched READMEs under `research/readmes/` remain with their respective projects under their original licenses. The rewrites under `demo/` are demonstration derivatives of the respective upstream READMEs, kept with attribution under their upstream terms (OpenRazer: GPL-2.0-or-later; wytui, Remark42, LinkNexus and RelayPoint: MIT).
