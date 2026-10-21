@@ -12,7 +12,7 @@ AI-generated READMEs drown readers in configuration tables, architecture notes, 
 
 - One SKILL.md plus a fill-in template; works with any agent that loads SKILL.md files (Hermes Agent, Claude Code, Codex, and others)
 - Structure proven across 21 starred repos (172 to 118k stars): 20/21 open with a logo, median length 126 lines, install sections around 20 words plus links
-- Depth rule: any section over ~150 words or config table over ~8 rows moves to docs and becomes a link, so nothing is deleted without a linked home
+- Depth rule: sections up to ~300 words stay inline, 300-500 get tightened first, and only 500+ (or 15+ table rows) moves out — never a docs/ folder for one slightly-over section; nothing is deleted without a linked home
 - Writing rules that kill AI-isms ("This repository contains…", "blazing-fast", "seamless") and phrase features as benefits
 - Verification checklist: badges checked against real workflow filenames, image paths must exist, screenshots sanitized
 - Social-proof ladder with sample frequencies (website 17/21, chat 12/21, sponsors 8/21, contributors 4/21); include only what's true
@@ -35,6 +35,8 @@ Then ask your agent to "write a README for this repo" or "rewrite this README wi
 |---|---|
 | `SKILL.md` | The skill |
 | `templates/README-template.md` | Fill-in README skeleton |
+| `references/demo-rewrite.md` | Procedure for rewriting a README you don't own: asset mining, badge truth, upstream anchors, asset accounting |
+| `scripts/link_check.sh` | Link checker: extracts every URL outside code fences and reports HTTP status |
 | `demo/sveltia-cms-auth-README.md` | Sample: the sveltia/sveltia-cms-auth README rewritten with the skill, 135 to 68 lines, every fact kept or linked |
 | `demo/openrazer-README.md` | Sample: openrazer/openrazer's README rewritten with the skill, 358 to 121 lines, every project asset embedded and link-verified (logo, banner, 13 distro icons, frontend icons) |
 | `demo/openrazer-original-README.md` | The upstream OpenRazer README, for side-by-side comparison |

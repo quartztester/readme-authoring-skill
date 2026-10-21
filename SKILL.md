@@ -1,7 +1,7 @@
 ---
 name: readme-authoring
 description: Write concise dual-audience READMEs for apps and repos.
-version: 0.1.0
+version: 0.2.0
 author: quartztester, Hermes Agent
 license: GPL-3.0
 platforms: [linux, macos, windows]
@@ -29,6 +29,7 @@ Write or de-verbose a project README so non-technical and technical readers both
 
 - Writing a README for a new app, tool, library, or self-hosted service
 - Rewriting an AI-generated or bloated README
+- Rewriting a README you don't own (demo, showcase, PR draft): follow `references/demo-rewrite.md`
 - Reviewing a README against the checklist
 
 Don't use for: documentation sites, API references, CONTRIBUTING.md, SECURITY.md.
@@ -60,8 +61,11 @@ Start from `templates/README-template.md` and delete what doesn't apply:
 
 The README is a landing page; depth lives behind links. When rewriting, nothing factual is deleted: it either stays or gets a linked home (`docs/`, wiki, website, upstream README anchor).
 
-- Any section over ~150 words moves out and becomes a link
-- Config or options tables over ~8 rows move out
+Limits are high on purpose: a section slightly over is a trimming problem, not a docs-folder problem.
+
+- Sections up to ~300 words stay inline without question
+- 300-500 words: tighten first (cut restatements, collapse steps); keep inline if it is setup a first-time user needs
+- Only past ~500 words, or a config table past ~15 rows, does content move out. Prefer an existing home (website, wiki, Discussions) over creating `docs/`, and create `docs/` only when several sections genuinely overflow, never for one
 - Never inline: architecture deep-dives, API references, changelogs, full CLI flag lists, dependency catalogs, dev-environment setup (one-line link under Contributing), long credits or localization lists
 - Test for every line: does it help a first-time visitor decide "should I install this?" or "how do I run it?" If not, cut it
 
@@ -97,6 +101,7 @@ The README is a landing page; depth lives behind links. When rewriting, nothing 
 - Up to 6 screenshots; a 3-column markdown table keeps them tidy (Invidious pattern)
 - Alt text on every image; one-line caption under the hero
 - Reference only images that exist in the repo (`docs/`, `assets/`, `.github/`, `resources/`). Verify with `search_files` or the GitHub contents API. If a good image doesn't exist yet, drop in `<!-- TODO: add a screenshot at docs/screenshot-main.png -->`; never invent a path
+- A repo with no images in its README often keeps presentation assets (logo, banner, distro icons, screenshots) in its sibling website repo (`ORG.github.io`); hotlink from `raw.githubusercontent.com` after verifying each URL returns 200, and never vendor copies
 - Sanitize screenshots: no emails, usernames, real personal domains, tokens, or keys visible
 
 ## Social proof
@@ -126,7 +131,7 @@ Only 1 of the 21 exemplars had one, but it gives an instant popularity-over-time
 2. Inventory assets: logo, screenshots, GIFs. Verify every path you plan to reference.
 3. Draft from `templates/README-template.md`; delete sections that don't apply.
 4. De-verbose pass: apply the depth rule, then the writing rules. Every cut fact keeps a home, inline or linked.
-5. Verify against the checklist. Confirm every image path exists and every link resolves (`search_files` for local paths; `terminal` with `curl -s -o /dev/null -w '%{http_code}' URL` for remote).
+5. Verify against the checklist. Confirm every image path exists (`search_files` for local paths), then link-check the finished file with `scripts/link_check.sh`. Every URL must resolve. Interpret before editing: 404 = dead, relink or drop — for a moved GitHub repo, `gh api repos/OWNER/NAME` follows the rename redirect and returns the live `full_name`; 403 on bot-blocking hosts (ko-fi, reddit) = confirm the target via search before dropping; never construct a URL from a plain-text mention — keep it plain text unless you verified it.
 
 ## Pitfalls
 
@@ -144,10 +149,11 @@ Only 1 of the 21 exemplars had one, but it gives an instant popularity-over-time
 - [ ] 6 or fewer badges, all true (CI workflow filename verified against `.github/workflows/`)
 - [ ] Hero screenshot or GIF shows real usage (or TODO marker)
 - [ ] 5-10 feature bullets, one line each, or the section omitted for tiny tools
-- [ ] Install is copy-paste, split by audience, under ~150 words
+- [ ] Install is copy-paste, split by audience, tight (~150-word target; a little over stays inline)
 - [ ] Total under 200 lines (hard cap 250)
-- [ ] Every image path exists in the repo; every link resolves
+- [ ] Every image path exists in the repo; `scripts/link_check.sh` reports every URL resolving
 - [ ] Every cut fact has a linked home
+- [ ] No docs/ folder was created to park a single slightly-over section
 - [ ] Social proof elements (chat, sponsors, contributors, translations) are all true for this repo
 - [ ] Star History chart at the bottom (or deferred for zero-star repos)
 - [ ] No personal data in screenshots
