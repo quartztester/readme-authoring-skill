@@ -1,0 +1,402 @@
+{
+ "qarmin/czkawka": {
+  "stars": 34424,
+  "forks": 1225,
+  "description": "Multi functional app to find duplicates, empty folders, similar images etc.",
+  "homepage": "",
+  "language": "Fluent",
+  "topics": [
+   "cleaner",
+   "duplicates",
+   "multiplatform",
+   "optimization",
+   "optimizer",
+   "rust",
+   "similar-images",
+   "similar-music",
+   "similar-videos"
+  ],
+  "license": "NOASSERTION",
+  "readme_chars": 14889,
+  "readme_lines": 210
+ },
+ "facebook/docusaurus": {
+  "stars": 66550,
+  "forks": 10097,
+  "description": "Easy to maintain open source documentation websites.",
+  "homepage": "https://docusaurus.io",
+  "language": "TypeScript",
+  "topics": [
+   "documentation",
+   "hacktoberfest",
+   "javascript",
+   "open-source",
+   "react",
+   "website"
+  ],
+  "license": "MIT",
+  "readme_chars": 7455,
+  "readme_lines": 124
+ },
+ "gorhill/uBlock": {
+  "stars": 68739,
+  "forks": 4393,
+  "description": "uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.",
+  "homepage": "",
+  "language": "JavaScript",
+  "topics": [
+   "blocker",
+   "browser-extension",
+   "chromium",
+   "firefox",
+   "javascript",
+   "ublock",
+   "ublock-origin"
+  ],
+  "license": "GPL-3.0",
+  "readme_chars": 10751,
+  "readme_lines": 190
+ },
+ "dani-garcia/vaultwarden": {
+  "stars": 69418,
+  "forks": 3358,
+  "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+  "homepage": "",
+  "language": "Rust",
+  "topics": [
+   "bitwarden",
+   "bitwarden-rs",
+   "docker",
+   "rocket",
+   "rust",
+   "vaultwarden"
+  ],
+  "license": "AGPL-3.0",
+  "readme_chars": 11157,
+  "readme_lines": 148
+ },
+ "iv-org/invidious": {
+  "stars": 25582,
+  "forks": 2867,
+  "description": "Invidious is an alternative front-end to YouTube",
+  "homepage": "https://invidious.io",
+  "language": "Crystal",
+  "topics": [
+   "agplv3",
+   "hacktoberfest",
+   "invidious",
+   "libre",
+   "video",
+   "watch",
+   "youtube",
+   "youtube-video"
+  ],
+  "license": "AGPL-3.0",
+  "readme_chars": 6602,
+  "readme_lines": 167
+ },
+ "Prowlarr/Prowlarr": {
+  "stars": 7417,
+  "forks": 416,
+  "description": "Prowlarr is an indexer manager/proxy built on the popular *arr .net/reactjs base stack to integrate with your various PVR apps, supporting management of both Torrent Trackers and Usenet Indexers.",
+  "homepage": "https://prowlarr.com",
+  "language": "C#",
+  "topics": [
+   "hacktoberfest",
+   "indexer",
+   "nzb",
+   "radarr",
+   "sonarr",
+   "torrent"
+  ],
+  "license": "GPL-3.0",
+  "readme_chars": 5196,
+  "readme_lines": 84
+ },
+ "organicmaps/organicmaps": {
+  "stars": 15729,
+  "forks": 1653,
+  "description": "\ud83c\udf43 Organic Maps is a free Android & iOS offline maps app for more than 6M travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by the community. No ads, no tracking, no data collection, no crapware. Please donate to support the development!",
+  "homepage": "https://organicmaps.app",
+  "language": "C++",
+  "topics": [
+   "android",
+   "app",
+   "cpp",
+   "cyclists",
+   "hacktoberfest",
+   "hikers",
+   "ios",
+   "java",
+   "maps",
+   "mobile",
+   "mobile-app",
+   "navigation",
+   "objective-c",
+   "offline",
+   "offline-maps",
+   "openstreetmap",
+   "privacy",
+   "routing",
+   "tourists",
+   "travelers"
+  ],
+  "license": "NOASSERTION",
+  "readme_chars": 10947,
+  "readme_lines": 204
+ },
+ "qgis/QGIS": {
+  "stars": 14660,
+  "forks": 3579,
+  "description": "QGIS is a free, open source, cross platform (lin/win/mac) geographical information system (GIS)",
+  "homepage": "https://qgis.org",
+  "language": "C++",
+  "topics": [],
+  "license": "GPL-2.0",
+  "readme_chars": 12398,
+  "readme_lines": 200
+ },
+ "sveltia/sveltia-cms-auth": {
+  "stars": 172,
+  "forks": 478,
+  "description": "Cloudflare Workers script that allows Sveltia CMS users to authenticate with GitHub.",
+  "homepage": "",
+  "language": "JavaScript",
+  "topics": [
+   "cloudflare-workers",
+   "decap-cms",
+   "github-authentication",
+   "netlify-cms",
+   "oauth2",
+   "oauth2-client",
+   "sveltia-cms"
+  ],
+  "license": "MIT",
+  "readme_chars": 7874,
+  "readme_lines": 135
+ },
+ "PrismLauncher/PrismLauncher": {
+  "stars": 10827,
+  "forks": 1631,
+  "description": "A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC)",
+  "homepage": "https://prismlauncher.org",
+  "language": "C++",
+  "topics": [
+   "cpp",
+   "cpp20",
+   "fabricmc",
+   "forge",
+   "linux",
+   "minecraft",
+   "minecraft-launcher",
+   "modrinth",
+   "multimc",
+   "prismlauncher",
+   "qt",
+   "qt6",
+   "quiltmc"
+  ],
+  "license": "GPL-3.0",
+  "readme_chars": 6992,
+  "readme_lines": 117
+ },
+ "star-history/star-history": {
+  "stars": 9626,
+  "forks": 376,
+  "description": "The de facto GitHub star history graph.",
+  "homepage": "https://www.star-history.com",
+  "language": "TypeScript",
+  "topics": [
+   "github",
+   "github-star",
+   "github-star-history",
+   "github-trending",
+   "graph",
+   "history",
+   "star",
+   "star-history"
+  ],
+  "license": "MIT",
+  "readme_chars": 6712,
+  "readme_lines": 143
+ },
+ "Tichau/FileConverter": {
+  "stars": 15452,
+  "forks": 943,
+  "description": "File Converter is a very simple tool which allows you to convert and compress files using the context menu in windows explorer.",
+  "homepage": "https://file-converter.io/",
+  "language": "C#",
+  "topics": [],
+  "license": "GPL-3.0",
+  "readme_chars": 5047,
+  "readme_lines": 101
+ },
+ "wallabag/wallabag": {
+  "stars": 13016,
+  "forks": 901,
+  "description": "wallabag is a self hostable application for saving web pages: Save and classify articles. Read them later. Freely.",
+  "homepage": "https://wallabag.org",
+  "language": "PHP",
+  "topics": [
+   "hacktoberfest",
+   "php",
+   "read-it-later",
+   "self-hosted",
+   "symfony",
+   "symfony-application",
+   "wallabag"
+  ],
+  "license": "MIT",
+  "readme_chars": 3384,
+  "readme_lines": 72
+ },
+ "godotengine/godot": {
+  "stars": 118808,
+  "forks": 27155,
+  "description": "Godot Engine \u2013 Multi-platform 2D and 3D game engine",
+  "homepage": "https://godotengine.org",
+  "language": "C++",
+  "topics": [
+   "game-development",
+   "game-engine",
+   "gamedev",
+   "godot",
+   "godotengine",
+   "multi-platform",
+   "open-source"
+  ],
+  "license": "MIT",
+  "readme_chars": 3722,
+  "readme_lines": 77
+ },
+ "monkeytypegame/monkeytype": {
+  "stars": 20921,
+  "forks": 3388,
+  "description": "The most customizable typing website with a minimalistic design and a ton of features. Test yourself in various modes, track your progress and improve your speed.",
+  "homepage": "https://monkeytype.com/",
+  "language": "TypeScript",
+  "topics": [
+   "monkeytype",
+   "typingtest"
+  ],
+  "license": "GPL-3.0",
+  "readme_chars": 7849,
+  "readme_lines": 75
+ },
+ "ajayyy/SponsorBlock": {
+  "stars": 13956,
+  "forks": 483,
+  "description": "Skip YouTube video sponsors (browser extension)",
+  "homepage": "https://sponsor.ajay.app",
+  "language": "TypeScript",
+  "topics": [
+   "adblock",
+   "adblocker",
+   "chrome",
+   "chrome-extension",
+   "chromium",
+   "firefox",
+   "firefox-extension",
+   "hacktoberfest",
+   "opera",
+   "sponsorblock",
+   "sponsored-segments",
+   "web-extension",
+   "youtube",
+   "youtube-videos"
+  ],
+  "license": "GPL-3.0",
+  "readme_chars": 5064,
+  "readme_lines": 79
+ },
+ "darktable-org/darktable": {
+  "stars": 13303,
+  "forks": 1485,
+  "description": "darktable is an open source photography workflow application and raw developer",
+  "homepage": "https://www.darktable.org",
+  "language": "C",
+  "topics": [],
+  "license": "GPL-3.0",
+  "readme_chars": 25254,
+  "readme_lines": 521
+ },
+ "KDE/krita": {
+  "stars": 10603,
+  "forks": 891,
+  "description": "Krita is a free and open source cross-platform application that offers an end-to-end solution for creating digital art files from scratch built on the KDE and Qt frameworks.",
+  "homepage": "https://invent.kde.org/graphics/krita",
+  "language": "C++",
+  "topics": [],
+  "license": "GPL-3.0",
+  "readme_chars": 5070,
+  "readme_lines": 126
+ },
+ "peazip/PeaZip": {
+  "stars": 7999,
+  "forks": 418,
+  "description": "Free Zip / Unzip software and Rar file extractor. Cross-platform file and archive manager. Features volume spanning, compression, authenticated encryption. Supports 7Z, 7-Zip sfx, ACE, ARJ, Brotli, BZ2, CAB, CHM, CPIO, DEB, GZ, ISO, JAR, LHA/LZH, NSIS, OOo, PAQ/LPAQ, PEA, QUAD, RAR, RPM, split, TAR, Z, ZIP, ZIPX, Zstandard.",
+  "homepage": "https://peazip.github.io",
+  "language": "Pascal",
+  "topics": [
+   "archiver",
+   "brotli",
+   "compression",
+   "encryption",
+   "extractor",
+   "paq",
+   "peazip",
+   "rar",
+   "zip",
+   "zstandard"
+  ],
+  "license": "LGPL-3.0",
+  "readme_chars": 3302,
+  "readme_lines": 48
+ },
+ "kovidgoyal/calibre": {
+  "stars": 26207,
+  "forks": 2725,
+  "description": "The official source code repository for the calibre ebook manager",
+  "homepage": "https://calibre-ebook.com",
+  "language": "Python",
+  "topics": [
+   "calibre",
+   "ebook",
+   "ebook-formats",
+   "ebook-manager",
+   "ebook-reader",
+   "ebooks",
+   "epub",
+   "epub-generation",
+   "kindle",
+   "python"
+  ],
+  "license": "GPL-3.0",
+  "readme_chars": 1938,
+  "readme_lines": 49
+ },
+ "ActivityWatch/activitywatch": {
+  "stars": 19318,
+  "forks": 1048,
+  "description": "The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.",
+  "homepage": "https://activitywatch.net/",
+  "language": "Python",
+  "topics": [
+   "activitywatch",
+   "afk",
+   "analytics",
+   "app",
+   "cross-platform",
+   "dashboard",
+   "productivity",
+   "quantified-self",
+   "time-tracker",
+   "time-tracking",
+   "timetracker",
+   "timetracking"
+  ],
+  "license": "MPL-2.0",
+  "readme_chars": 15274,
+  "readme_lines": 302
+ }
+}

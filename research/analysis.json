@@ -1,0 +1,474 @@
+{
+ "method": "READMEs fetched via the GitHub API on 2026-10-21 and analyzed with regex heuristics: banner position (non-badge image in first 12 non-empty lines), badge domains, non-badge image counts, install-section word counts, and top-level heading outlines.",
+ "sample": {
+  "repos": 21,
+  "stars_range": [
+   172,
+   118808
+  ],
+  "readme_lines": {
+   "min": 48,
+   "median": 126,
+   "max": 521
+  },
+  "readme_chars_median": 6992,
+  "logo_or_banner_top": "20/21",
+  "any_badges": "14/21",
+  "badge_count_median": 3,
+  "nonbadge_images_min_1": "21/21",
+  "nonbadge_images_min_3": "13/21",
+  "install_words_median": 20,
+  "star_history_chart": "1/21"
+ },
+ "repos": [
+  {
+   "repo": "ActivityWatch/activitywatch",
+   "stars": 19318,
+   "readme_lines": 302,
+   "readme_chars": 15274,
+   "language": "Python",
+   "license": "MPL-2.0",
+   "logo_or_banner_top": true,
+   "badge_count": 8,
+   "nonbadge_images": 8,
+   "install_section_words": 120,
+   "star_history_chart": false
+  },
+  {
+   "repo": "KDE/krita",
+   "stars": 10603,
+   "readme_lines": 126,
+   "readme_chars": 5070,
+   "language": "C++",
+   "license": "GPL-3.0",
+   "logo_or_banner_top": true,
+   "badge_count": 0,
+   "nonbadge_images": 5,
+   "install_section_words": 0,
+   "star_history_chart": false
+  },
+  {
+   "repo": "PrismLauncher/PrismLauncher",
+   "stars": 10827,
+   "readme_lines": 117,
+   "readme_chars": 6992,
+   "language": "C++",
+   "license": "GPL-3.0",
+   "logo_or_banner_top": true,
+   "badge_count": 6,
+   "nonbadge_images": 5,
+   "install_section_words": 55,
+   "star_history_chart": false
+  },
+  {
+   "repo": "Prowlarr/Prowlarr",
+   "stars": 7417,
+   "readme_lines": 84,
+   "readme_chars": 5196,
+   "language": "C#",
+   "license": "GPL-3.0",
+   "logo_or_banner_top": true,
+   "badge_count": 15,
+   "nonbadge_images": 6,
+   "install_section_words": 0,
+   "star_history_chart": false
+  },
+  {
+   "repo": "Tichau/FileConverter",
+   "stars": 15452,
+   "readme_lines": 101,
+   "readme_chars": 5047,
+   "language": "C#",
+   "license": "GPL-3.0",
+   "logo_or_banner_top": true,
+   "badge_count": 0,
+   "nonbadge_images": 1,
+   "install_section_words": 35,
+   "star_history_chart": false
+  },
+  {
+   "repo": "ajayyy/SponsorBlock",
+   "stars": 13956,
+   "readme_lines": 79,
+   "readme_chars": 5064,
+   "language": "TypeScript",
+   "license": "GPL-3.0",
+   "logo_or_banner_top": true,
+   "badge_count": 5,
+   "nonbadge_images": 2,
+   "install_section_words": 2,
+   "star_history_chart": false
+  },
+  {
+   "repo": "dani-garcia/vaultwarden",
+   "stars": 69418,
+   "readme_lines": 148,
+   "readme_chars": 11157,
+   "language": "Rust",
+   "license": "AGPL-3.0",
+   "logo_or_banner_top": true,
+   "badge_count": 17,
+   "nonbadge_images": 2,
+   "install_section_words": 162,
+   "star_history_chart": false
+  },
+  {
+   "repo": "darktable-org/darktable",
+   "stars": 13303,
+   "readme_lines": 521,
+   "readme_chars": 25254,
+   "language": "C",
+   "license": "GPL-3.0",
+   "logo_or_banner_top": true,
+   "badge_count": 1,
+   "nonbadge_images": 3,
+   "install_section_words": 0,
+   "star_history_chart": false
+  },
+  {
+   "repo": "facebook/docusaurus",
+   "stars": 66550,
+   "readme_lines": 124,
+   "readme_chars": 7455,
+   "language": "TypeScript",
+   "license": "MIT",
+   "logo_or_banner_top": true,
+   "badge_count": 16,
+   "nonbadge_images": 6,
+   "install_section_words": 20,
+   "star_history_chart": false
+  },
+  {
+   "repo": "godotengine/godot",
+   "stars": 118808,
+   "readme_lines": 77,
+   "readme_chars": 3722,
+   "language": "C++",
+   "license": "MIT",
+   "logo_or_banner_top": true,
+   "badge_count": 1,
+   "nonbadge_images": 3,
+   "install_section_words": 17,
+   "star_history_chart": false
+  },
+  {
+   "repo": "gorhill/uBlock",
+   "stars": 68739,
+   "readme_lines": 190,
+   "readme_chars": 10751,
+   "language": "JavaScript",
+   "license": "GPL-3.0",
+   "logo_or_banner_top": true,
+   "badge_count": 0,
+   "nonbadge_images": 10,
+   "install_section_words": 4,
+   "star_history_chart": false
+  },
+  {
+   "repo": "iv-org/invidious",
+   "stars": 25582,
+   "readme_lines": 167,
+   "readme_chars": 6602,
+   "language": "Crystal",
+   "license": "AGPL-3.0",
+   "logo_or_banner_top": true,
+   "badge_count": 10,
+   "nonbadge_images": 7,
+   "install_section_words": 23,
+   "star_history_chart": false
+  },
+  {
+   "repo": "kovidgoyal/calibre",
+   "stars": 26207,
+   "readme_lines": 49,
+   "readme_chars": 1938,
+   "language": "Python",
+   "license": "GPL-3.0",
+   "logo_or_banner_top": true,
+   "badge_count": 2,
+   "nonbadge_images": 1,
+   "install_section_words": 24,
+   "star_history_chart": false
+  },
+  {
+   "repo": "monkeytypegame/monkeytype",
+   "stars": 20921,
+   "readme_lines": 75,
+   "readme_chars": 7849,
+   "language": "TypeScript",
+   "license": "GPL-3.0",
+   "logo_or_banner_top": true,
+   "badge_count": 21,
+   "nonbadge_images": 1,
+   "install_section_words": 0,
+   "star_history_chart": false
+  },
+  {
+   "repo": "organicmaps/organicmaps",
+   "stars": 15729,
+   "readme_lines": 204,
+   "readme_chars": 10947,
+   "language": "C++",
+   "license": "NOASSERTION",
+   "logo_or_banner_top": true,
+   "badge_count": 0,
+   "nonbadge_images": 21,
+   "install_section_words": 0,
+   "star_history_chart": false
+  },
+  {
+   "repo": "peazip/PeaZip",
+   "stars": 7999,
+   "readme_lines": 48,
+   "readme_chars": 3302,
+   "language": "Pascal",
+   "license": "LGPL-3.0",
+   "logo_or_banner_top": true,
+   "badge_count": 4,
+   "nonbadge_images": 2,
+   "install_section_words": 0,
+   "star_history_chart": false
+  },
+  {
+   "repo": "qarmin/czkawka",
+   "stars": 34424,
+   "readme_lines": 210,
+   "readme_chars": 14889,
+   "language": "Fluent",
+   "license": "NOASSERTION",
+   "logo_or_banner_top": true,
+   "badge_count": 0,
+   "nonbadge_images": 5,
+   "install_section_words": 327,
+   "star_history_chart": false
+  },
+  {
+   "repo": "qgis/QGIS",
+   "stars": 14660,
+   "readme_lines": 200,
+   "readme_chars": 12398,
+   "language": "C++",
+   "license": "GPL-2.0",
+   "logo_or_banner_top": true,
+   "badge_count": 3,
+   "nonbadge_images": 18,
+   "install_section_words": 41,
+   "star_history_chart": false
+  },
+  {
+   "repo": "star-history/star-history",
+   "stars": 9626,
+   "readme_lines": 143,
+   "readme_chars": 6712,
+   "language": "TypeScript",
+   "license": "MIT",
+   "logo_or_banner_top": true,
+   "badge_count": 0,
+   "nonbadge_images": 11,
+   "install_section_words": 0,
+   "star_history_chart": true
+  },
+  {
+   "repo": "sveltia/sveltia-cms-auth",
+   "stars": 172,
+   "readme_lines": 135,
+   "readme_chars": 7874,
+   "language": "JavaScript",
+   "license": "MIT",
+   "logo_or_banner_top": false,
+   "badge_count": 0,
+   "nonbadge_images": 1,
+   "install_section_words": 59,
+   "star_history_chart": false
+  },
+  {
+   "repo": "wallabag/wallabag",
+   "stars": 13016,
+   "readme_lines": 72,
+   "readme_chars": 3384,
+   "language": "PHP",
+   "license": "MIT",
+   "logo_or_banner_top": true,
+   "badge_count": 5,
+   "nonbadge_images": 2,
+   "install_section_words": 51,
+   "star_history_chart": false
+  }
+ ],
+ "outlines": {
+  "ActivityWatch/activitywatch": [
+   "TODO: Best practices badge that we should work towards, see issue #42.",
+   "About",
+   "How to cite ActivityWatch",
+   "Installation & Usage",
+   "Is this yet another time tracker?",
+   "Architecture",
+   "About this repository",
+   "Contributing",
+   "Questions and support"
+  ],
+  "KDE/krita": [],
+  "PrismLauncher/PrismLauncher": [
+   "Installation",
+   "Community & Support",
+   "Translations",
+   "Building",
+   "Sponsors & Partners",
+   "Forking/Redistributing/Custom builds policy",
+   "License [![https://github.com/PrismLauncher/PrismLauncher/blob/develop/LICENSE](https://img.shields.io/github/license/PrismLauncher/PrismLauncher?label=License&logo=gnu&color=C4282D)](LICENSE)"
+  ],
+  "Prowlarr/Prowlarr": [
+   "Prowlarr",
+   "Major Features Include",
+   "Support",
+   "Indexers & Trackers",
+   "Contributors & Developers",
+   "Backers",
+   "Sponsors",
+   "Mega Sponsors",
+   "JetBrains"
+  ],
+  "Tichau/FileConverter": [
+   "File Converter",
+   "Description",
+   "Donate",
+   "Troubleshooting",
+   "Setup development environment",
+   "Thanks",
+   "Middlewares",
+   "License"
+  ],
+  "ajayyy/SponsorBlock": [
+   "Important Links",
+   "Server",
+   "API",
+   "Building",
+   "Credit"
+  ],
+  "dani-garcia/vaultwarden": [
+   "Features",
+   "Usage",
+   "Get in touch",
+   "Contributors",
+   "Disclaimer",
+   "Bitwarden_RS"
+  ],
+  "darktable-org/darktable": [
+   "Table of Contents"
+  ],
+  "facebook/docusaurus": [
+   "Introduction",
+   "Installation",
+   "Contributing",
+   "Contact",
+   "Contributors",
+   "Backers",
+   "Sponsors",
+   "License",
+   "Special thanks"
+  ],
+  "godotengine/godot": [
+   "Godot Engine",
+   "2D and 3D cross-platform game engine",
+   "Free, open source and community-driven",
+   "Getting the engine",
+   "Community and contributing",
+   "Documentation and demos"
+  ],
+  "gorhill/uBlock": [
+   "Documentation",
+   "Installation",
+   "Release History",
+   "Translations",
+   "About"
+  ],
+  "iv-org/invidious": [
+   "Screenshots",
+   "Features",
+   "Quick start",
+   "Documentation",
+   "Contribute",
+   "Projects using Invidious",
+   "Liability"
+  ],
+  "kovidgoyal/calibre": [
+   "calibre",
+   "Screenshots",
+   "Usage",
+   "Development",
+   "Bugs",
+   "Support calibre",
+   "Building calibre binaries",
+   "calibre package versions in various repositories"
+  ],
+  "monkeytypegame/monkeytype": [
+   "About",
+   "Features",
+   "Discord bot",
+   "Bug report or Feature request",
+   "Want to Contribute?",
+   "Code of Conduct",
+   "Security",
+   "Credits",
+   "Support"
+  ],
+  "organicmaps/organicmaps": [
+   "Features",
+   "Why Organic?",
+   "Who is paying for the development?",
+   "Governance",
+   "Contributing",
+   "Beta",
+   "Feedback",
+   "License and Copyrights"
+  ],
+  "peazip/PeaZip": [
+   "PeaZip Free Archiver",
+   "Features",
+   "Build Instructions",
+   "Useful Links"
+  ],
+  "qarmin/czkawka": [
+   "Features",
+   "Usage, installation, compilation, requirements, license",
+   "Comparison to other tools",
+   "Other apps",
+   "Projects using Czkawka",
+   "Thanks",
+   "How to help?",
+   "AI Policy",
+   "Officially Supported Projects",
+   "License",
+   "Donations"
+  ],
+  "qgis/QGIS": [
+   "Features",
+   "Under the hood",
+   "Installing and using QGIS",
+   "Get involved with the community"
+  ],
+  "star-history/star-history": [
+   ":sparkles: Star History :sparkles:",
+   "\ud83c\udf81 Sponsors",
+   "\u2728 Features",
+   "\ud83c\udf20 Screenshots",
+   "\ud83c\udfd7 Development"
+  ],
+  "sveltia/sveltia-cms-auth": [
+   "Sveltia CMS Authenticator",
+   "When to use it",
+   "How to use it",
+   "FAQ",
+   "Acknowledgements"
+  ],
+  "wallabag/wallabag": [
+   "wallabag",
+   "Documentation",
+   "Installation",
+   "Translation",
+   "Contributing",
+   "Sponsors",
+   "License"
+  ]
+ }
+}
